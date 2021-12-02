@@ -1,8 +1,7 @@
 import { Content } from 'antd/lib/layout/layout';
-import * as React from 'react';
+import TodosForm from '../components/TodosForm/TodosForm';
+import TodosList from '../components/TodosList/TodosList';
 import style from './Todos.module.scss';
-import TodosForm from '../components/todos-form/todosForm.component';
-import TodosList from '../components/todos-list/todosList.component';
 
 export default function Todos() {
   return (

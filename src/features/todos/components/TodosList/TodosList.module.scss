@@ -1,0 +1,25 @@
+.list__container {
+  padding-left: 20px;
+  width: 60%;
+  .tab__container {
+    label {
+      border: none;
+      background-color: transparent;
+      &::before {
+        content: none;
+      }
+      &:focus-within {
+        box-shadow: none;
+      }
+    }
+    span {
+      color: #999;
+      font-size: 1rem;
+    }
+    :global(.ant-radio-button-wrapper-checked) {
+      span {
+        color: #1890ff;
+      }
+    }
+  }
+}
