@@ -18,7 +18,7 @@ const todoApi = {
     const url = `todos/${data.id}`;
     return axiosClient.patch(url, data);
   },
-  delete(id: string): Promise<any> {
+  delete(id: number): Promise<any> {
     const url = `todos/${id}`;
     return axiosClient.delete(url);
   },
